@@ -1,44 +1,58 @@
 <div align="center">
 
-# ArmadilhaMosquito — 3D Project Assets
+# ArmadilhaMosquito — 3D Design Materials
 
-**A repository for the 3D materials associated with a mosquito-trap concept.**
+**A repository containing 3D assets associated with a mosquito-trap concept.**
 
-![Materials](https://img.shields.io/badge/materials-3D%20assets-6f42c1)
-![Status](https://img.shields.io/badge/status-documentation%20needed-lightgrey)
+![Focus](https://img.shields.io/badge/focus-3D%20design-6f42c1)
+![Status](https://img.shields.io/badge/status-needs%20project%20documentation-lightgrey)
 
 </div>
 
+## Contents
+
+- [Overview](#overview)
+- [Repository contents](#repository-contents)
+- [Design documentation needed](#design-documentation-needed)
+- [How to explore the files](#how-to-explore-the-files)
+- [Project status](#project-status)
+- [License](#license)
+
 ## Overview
 
-This repository currently contains a `3Ds/` directory with 3D project materials. The available repository content does not yet describe the trap's operating principle, electronics, components, or manufacturing process.
+ArmadilhaMosquito is currently a repository for 3D materials associated with a mosquito-trap concept. The public file structure confirms a `3Ds/` directory, but does not yet explain the mechanical design, operating principle, electronics, or validation of the trap.
 
-To avoid inventing technical specifications, this README is limited to the materials that can be confirmed from the repository.
+This README intentionally avoids claiming specifications that are not documented in the repository.
 
 ## Repository contents
 
 ```text
-.
+ArmadilhaMosquito/
 ├── 3Ds/
 └── README.md
 ```
 
-## What should be documented next
+## Design documentation needed
 
-For this project to become reproducible and understandable to other engineers, the documentation should eventually identify:
+To make the project useful to other makers and engineers, the next documentation iteration should identify:
 
-- The intended use and design requirements
-- The trap's operating principle
-- Mechanical parts and assembly
-- Electronic components, if any
-- Power requirements and safety considerations
-- 3D file formats and the software used to edit them
-- Prototype photographs and validation results
+- The problem the trap is designed to address
+- The intended operating principle
+- Mechanical components and assembly sequence
+- 3D file formats and authoring software
+- Electronics, sensors, power, and wiring (if applicable)
+- Material selection and manufacturing constraints
+- Prototype photographs and test observations
+- Safety and maintenance considerations
+
+## How to explore the files
+
+Open the files inside `3Ds/` with software compatible with their actual formats. The repository currently does not specify a required CAD application or version.
 
 ## Project status
 
-The repository currently serves as a container for 3D materials. Its engineering scope and implementation details require additional documentation.
+The repository currently serves as a container for 3D design material. Its engineering scope and implementation details need to be documented before it can be presented as a reproducible product design.
 
 ## License
 
-No license file was identified in the repository. Contact the author before redistributing or reusing these assets.
+No `LICENSE` file is currently included. Unless a license is added, reuse and redistribution permissions are not granted by this repository.
